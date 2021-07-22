@@ -18,7 +18,7 @@ $(document).ready(function(){
 
     $("#buttonEnviar").click(function(){
         $(".feedbacks").append(
-            "<p class='feedbacks'>" + "Name: " + nomeUser + "<br><br>" + "Email: " + mail + "<br><br>" + "Message: " + feedback + "</p>"
+            "<p class='feedbackJS'>" + "Name: " + nomeUser + "<br><br>" + "Email: " + mail + "<br><br>" + "Message: " + feedback + "</p>"
         );
     });
 });
