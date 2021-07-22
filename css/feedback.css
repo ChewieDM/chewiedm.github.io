@@ -1,0 +1,97 @@
+h1 {
+    font-family: "Source Code Pro", Serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Mate SC", Serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Libre Basketville", Serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.barraFeedback {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #332E3C;
+    position: page;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Libre Basketville', Serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #CA3CFF;
+}
+
+.rodapeFeedback {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6E27F;
+    color: black;
+    text-align: center;
+}
+
+.formulario{
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.feedbacks {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.fb {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+    background-color: #00b8ff;
+    text-align: center;
+}
+
+#buttonEnviar{
+    display: block;
+    transition-duration: 0.4s;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkblue;
+    color: white;
+    border: 0px;
+    padding: 24px 48px;
+}
+
+#buttonSubmit:hover {
+    background-color: darkblue;
+    color: white;
+}

@@ -1,0 +1,70 @@
+h1 {
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Mate SC";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Libre Basketville";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.rodapeInicio {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6E27F;
+    color: black;
+    text-align: center;
+}
+
+.barraImagens {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #332E3C;
+    position: page;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Libre Basketville', Serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #CA3CFF;
+}
+
+.rodapeImagens {
+    position: page;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6E27F;
+    color: black;
+    text-align: center;
+}
+

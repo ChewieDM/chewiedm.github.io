@@ -1,0 +1,189 @@
+h1 {
+    font-family: "Source Code Pro", Serif;
+    font-weight: bold;
+    font-size: 42px;
+    padding: 25px;
+}
+
+h2 {
+    font-family: "Mate SC", Serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Libre Basketville", Serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.MateSCD {
+    padding: 15px;
+}
+
+.MateSC {
+    font-family: "Serif";
+    font-size: 25px;
+}
+
+.MateSCRegular {
+    font-family: "Mate SC";
+    font-size: 20px;
+
+}
+.SourceSansProD {
+    font-family: "Serif";
+    font-size: 25px;
+    padding: 15px;
+}
+
+.SourcesansPro {
+    font-family: "Serif";
+    font-size: 25px;
+}
+
+.SSPExtralight {
+    font-family: "Source Sans Pro ExtraLight";
+    font-size: 20px;
+}
+
+.SSPExtralightItalic {
+    font-family: "Source Sans Pro ExtraLight";
+    font-size: 20px;
+    font-style: italic;
+}
+
+.SSPLight {
+    font-family: "Source Sans Pro Light";
+    font-size: 20px;
+}
+
+.SSPLightItalic {
+    font-family: "Source Sans Pro Light";
+    font-size: 20px;
+    font-style: italic;
+}
+
+.SSPRegular {
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.SSPRegularItalic {
+    font-family: "Source Code Pro";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.SSPSemibold {
+    font-family: "Source Sans Pro Semibold";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.SSPSemiboldItalic {
+    font-family: "Source Sans Pro Semibold";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.SSPBold {
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.SSPBoldItalic {
+    font-family: "Source Sans Pro ExtraLight";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.SSPBlack {
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+}
+
+.SSPBlackItalic {
+    font-family: "Source Sans Pro Black";
+    font-size: 20px;
+    font-style: italic;
+}
+
+.LibreBaskervilleD {
+    font-family: "Serif";
+    padding: 15px;
+}
+
+.LibreBaskerviller {
+    font-family: "Serif";
+    font-size: 25px;
+}
+
+.LibreBaskervillerRegular {
+    font-family: "Libre Basketville";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.LibreBaskervillerRegularItalic {
+    font-family: "Libre Basketville";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.LibreBaskervillerBold {
+    font-family: "Libre Basketville";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Libre Basketville', Serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+.barraFontes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #332E3C;
+    position: page;
+    top: 0;
+    width: 100%;
+}
+
+
+.active {
+    background-color: #CA3CFF;
+}
+
+.rodapeFontes {
+    position: page;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6E27F;
+    color: black;
+    text-align: center;
+}

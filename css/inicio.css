@@ -1,0 +1,151 @@
+h1 {
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Mate SC";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Libre Basketville";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.Titulo {
+    text-align: center;
+    margin: 50px;
+}
+
+.referencias {
+    text-align: left;
+    padding: 15px;
+}
+
+.links {
+    color: crimson;
+    text-align: left;
+}
+
+.bonus {
+    text-align: left;
+    font-family: "Comic Sans MS";
+    font-size: 10px;
+}
+
+.thumbs {
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario{
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.feedbacks {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+
+}
+
+.barraInicio {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #332E3C;
+    position: page;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Libre Basketville', Serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #CA3CFF;
+}
+
+.rodapeInicio {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6E27F;
+    color: black;
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.feedbacks {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+
+#buttonEnviar{
+    position: center;
+    display: block;
+    transition-duration: 0.4s;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DD1923;
+    color: white;
+    border: 0px;
+    padding: 24px 48px;
+}
+
+#buttonInicio:hover {
+    background-color: red;
+    color: white;
+}
+
+.diversao{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.xarope {
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.xaropeHeader {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,106 @@
+h1 {
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Mate SC";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Libre Basketville";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.carolinablue {
+    width: 250px;
+    padding: 25px;
+    margin: 20px;
+    float: left;
+    background-color: #02A9EA;
+    text-align: center;
+}
+
+.lemonglacier {
+    width: 250px;
+    padding: 25px;
+    margin: 20px;
+    float: left;
+    background-color: #FAFF00;
+    text-align: center;
+}
+
+.raisinblack {
+    color: white;
+    width: 250px;
+    padding: 25px;
+    margin: 20px;
+    float: left;
+    background-color: #332E3C;
+    text-align: center;
+}
+
+.yellowcrayola{
+    width: 250px;
+    padding: 25px;
+    margin: 20px;
+    float: left;
+    background-color: #F6E27F;
+    text-align: center;
+}
+
+.phlox {
+    width: 250px;
+    padding: 25px;
+    margin: 20px;
+    float: left;
+    background-color: #CA3CFF;
+    text-align: center;
+}
+
+
+.barraCores {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #332E3C;
+    position: page;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Libre Basketville', Serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #CA3CFF;
+}
+
+.rodapeCores {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6E27F;
+    color: black;
+    text-align: center;
+}

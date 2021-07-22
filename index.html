@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Design p/ Sites</title>
+    <link rel="stylesheet" href="css/inicio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mate+SC&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <script src="js/relogio.js"></script>
+    <script src="js/feedback.js"></script>
+</head>
+
+<ul class="barraInicio">
+    <li><a href="index.html" class="active">Inicio</a></li>
+    <li><a href="cores.html">Cores</a></li>
+    <li><a href="fontes.html">Fontes</a></li>
+    <li><a href="estilos.html">Estilos de Texto</a></li>
+    <li><a href="imagens.html">Imagens</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+</ul>
+
+<body>
+
+<h1 class="Titulo">Repositório para Sites HTML do Gabriel</h1>
+<img class="thumbs" src="imagens/thumbs.gif">
+
+
+<div class="referencias">
+    <h2>Diversão: Clique na imagem para uma surpresa:</h2>
+</div>
+
+<div class="diversao">
+    <img src="imagens/xaropinho.webp" class="xarope" onclick="ratinho()">
+</div>
+
+<h3 class="xaropeHeader"><span>RAPAZ: </span> <span id="xaropeJS">0</span></h3>
+
+
+<form class="formulario">
+    <h2>Nos deixe seu Feedback!!</h2>
+    <input type="text" id="name" placeholder="Nome" oninput="getName()">
+    <input type="email" id="email" placeholder="Seu Email" oninput="getEmail()"><br><br>
+    <textarea id="feedback" placeholder="Feedback..." rows="10" cols="48" oninput="getFeedback()"></textarea><br><br>
+</form>
+
+<button id="buttonEnviar">Enviar!</button>
+
+<div class="feedbacks"></div>
+
+</body>
+
+<div class="rodapeInicio">
+    <p>
+    <a href="mailto: gabrielkm99@hotmail.com">E-mail</a>
+    <a href="https://www.facebook.com/gabriel.kemczinskidemoraes" target="_blank">Facebook</a>
+    <a href="https://github.com/Chewiein8bits" target="_blank">Github</a>
+    <a href="https://github.com/Chewiein8bits/chewiein8bits.github.io" target="_blank">Source Code</a>
+        <br> <span id="data"></span>
+
+    </p>
+</div>
+
+</html>

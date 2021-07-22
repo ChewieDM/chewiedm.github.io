@@ -1,0 +1,78 @@
+h1 {
+    font-family: "Source Code Pro", serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Mate SC", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Libre Basketville", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Libre Basketville', Serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.barraEstilos {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #332E3C;
+    position: page;
+    top: 0;
+    width: 100%;
+}
+
+.active {
+    background-color: #CA3CFF;
+}
+
+.cabecalho1 {
+    font-family: "Source Sans Pro";
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.cabecalho2 {
+    font-family: "Mate SC";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.paragrafo {
+    font-family: "Libre Basketville";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.rodapeEstilos {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6E27F;
+    color: black;
+    text-align: center;
+}
